@@ -36,5 +36,11 @@ namespace WeatherAppDemoCICD.Controllers
         {
             return Ok("Test connection worked");
         }
+
+        [HttpGet("Test2")]
+        public IActionResult Test2()
+        {
+            return Ok("Test connection worked");
+        }
     }
 }
